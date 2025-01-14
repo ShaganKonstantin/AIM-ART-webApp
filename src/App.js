@@ -8,7 +8,7 @@ function App() {
 //useEffect используется для работы с внешнем апи и вызывается на самом верху компонента
   useEffect(() => {
     tg.ready();
-  }, [])
+  })
 
   return (
     <div className="App">
