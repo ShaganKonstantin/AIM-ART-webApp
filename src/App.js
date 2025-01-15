@@ -8,7 +8,7 @@ import Form from './components/form/Form';
 
 
 function App() {
-  const {onToggleButton, tg} = useTelegram();
+  const {tg} = useTelegram();
 //useEffect используется для работы с внешнем апи и вызывается на самом верху компонента
   useEffect(() => {
     tg.ready();
